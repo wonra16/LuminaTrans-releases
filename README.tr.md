@@ -23,6 +23,7 @@ Bir dinleme oturumu bittiğinde karttaki **Özetle** düğmesi konuşulanları m
 ## Dosya ve belge çevirisi (Pro)
 
 - **Belgeler, düzen korunarak:** PDF, Word (docx), PowerPoint (pptx) ve Excel (xlsx) dosyasını panele bırak ya da Gelen → **Dosya çevir** ile seç. PDF'de metin kendi kutusunun içine yeniden yazılır, görseller ve sayfalar aynen kalır; Word'de yazı tipi, tablo, üst ve alt bilgi korunur; PowerPoint'te her slayt ve not; Excel'de sadece metin hücreleri çevrilir, sayı ve formüller dokunulmaz. Çıktı `Belgeler\LuminaTrans` içine `ad.en.pdf` gibi yazılır, çevrilen satırlar kartta da görünür.
+- **Çıktıyı sen seç** (Ayarlar → Belge çevirisi): aynı düzen, ya da başlık ve paragraflarla yeniden kurulmuş okunaklı nüsha (görseller okuma sırasında; Word, PDF ya da ikisi), ya da ikisi birden; isteğe bağlı çift dilli (her paragrafın altında orijinal); Hızlı ya da Dikkatli çeviri (önceki paragraf bağlam, tutarlı terimler). Taranmış PDF'ler Windows OCR ile okunur.
 - **Ses ve video:** mp3, mp4, m4a, ogg, webm, mkv… ya da metin/altyazı (txt, md, srt, vtt). Çıktılar: `ad.en.srt` (çeviri), `ad.en+orig.srt` (üstte çeviri, altta orijinal), `ad.orig.srt`, `ad.en.txt` (yan yana).
 - **Düzelt:** Yabancı dilde kendin yazdığın metni çevirmeden, anadili gibi düzeltir (dil bilgisi, yazım, doğal ifade); Yaz sekmesinde Çevir'in yanındaki düğme.
 - Panele ekran görüntüsü yapıştır (Ctrl+V): ekran bölgesi gibi okunup çevrilir (ücretsiz).

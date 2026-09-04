@@ -33,6 +33,7 @@ Paste a screenshot into the panel (Ctrl+V) and it is read and translated like a 
 The free edition keeps everything above unlimited. Pro (one-time purchase on [Gumroad](https://cateffect.gumroad.com/l/luminatrans), 7-day trial included) adds:
 
 - **Document translation with the layout kept.** Drop a PDF, Word, PowerPoint or Excel file on the panel. PDF text is rewritten inside its original boxes with images and pages untouched; Word keeps fonts, tables, headers and footers; PowerPoint keeps every slide and note; Excel translates text cells and leaves numbers and formulas alone.
+- **Choose how a document comes back** (Settings → Document translation): same layout, a readable reading copy rebuilt as headings and paragraphs with the images carried over (Word, PDF or both), or both at once; optional bilingual mode with the original under each paragraph; Fast or Careful translation (previous paragraph as context, consistent terms). Scanned PDFs are read with Windows OCR.
 - **Video and audio translation.** Any media file becomes a translated `.srt`, a bilingual `.srt` (translation over original) and a side-by-side transcript. A watched folder (`Documents\LuminaTrans\Inbox`) translates anything you put in it.
 - **Fix.** Write in the other language yourself; the Fix button corrects grammar, spelling and unnatural phrasing without translating, in the register you chose.
 - Summaries after a listening session, read-aloud, a glossary so names and terms stay fixed, clipboard watch, and screen subtitles.
