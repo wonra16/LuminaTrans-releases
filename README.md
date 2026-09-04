@@ -30,7 +30,7 @@ Paste a screenshot into the panel (Ctrl+V) and it is read and translated like a 
 
 ## Pro
 
-The free edition keeps everything above unlimited. Pro (one-time purchase on [Gumroad](https://cateffect.gumroad.com/l/luminatrans), 7-day trial included) adds:
+The free edition keeps everything above unlimited. Pro (one-time purchase on [Gumroad](https://wonra16.gumroad.com/l/luminatrans), 7-day trial included) adds:
 
 - **Document translation with the layout kept.** Drop a PDF, Word, PowerPoint or Excel file on the panel. PDF text is rewritten inside its original boxes with images and pages untouched; Word keeps fonts, tables, headers and footers; PowerPoint keeps every slide and note; Excel translates text cells and leaves numbers and formulas alone.
 - **Choose how a document comes back** (Settings → Document translation): same layout, a readable reading copy rebuilt as headings and paragraphs with the images carried over (Word, PDF or both), or both at once; optional bilingual mode with the original under each paragraph; Fast or Careful translation (previous paragraph as context, consistent terms). Scanned PDFs are read with Windows OCR.
