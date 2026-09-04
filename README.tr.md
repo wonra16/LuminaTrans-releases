@@ -115,3 +115,16 @@ Kodda bir değişiklik yaptıysan `build_exe.bat` ile yeniden derle; `LuminaTran
 - Ollama adresi olarak `127.0.0.1` kullanılır; `localhost` yazarsan Windows her isteğe 2 s ekler (ölçüldü), uygulama bunu kendisi düzeltir.
 - Ayarlar'daki "Hızlı çeviri modeli" varsayılanı metin modelidir; HY-MT seçersen 0,1 s kazanır ama Türkçede "siz" dili ve kelime hataları ölçüldü.
 - Hata ayıklama için: `python app.py --debug` (WebView geliştirici araçları açılır).
+
+## Çeviri motorları
+
+Varsayılan model Ollama ile kendi bilgisayarında çalışır. Bulut sağlayıcı istersen kendi anahtarınla: Gemini, Groq, Cerebras, OpenRouter ve Mistral ücretsiz katman sunar; OpenAI, DeepSeek, xAI Grok ve Claude ücretlidir. Her sağlayıcıda "Model listesini getir" düğmesi anahtarının kullanabildiği modelleri gösterir, model kutusuna istediğin adı yazabilirsin ve OpenAI uyumlu her uç noktayı (Together, Fireworks, şirket içi vLLM, LM Studio) kendi adınla ekleyebilirsin.
+
+## Diller
+
+On bir arayüz dili: Türkçe, İngilizce, İspanyolca, Almanca, Fransızca, Portekizce, İtalyanca, Rusça, Japonca, Korece, Çince. Kurulumda seçtiğin dil uygulamanın dili ve dil çiftin olur. 28 dile çeviri; en çok kullanılan 16 dil (Türkçe, İngilizce, İspanyolca, Almanca, Fransızca, Portekizce, İtalyanca, Rusça, Japonca, Korece, Çince, Arapça, Hintçe, Felemenkçe, Lehçe, Ukraynaca) için hitap seviyesi, bölgesel çeşit, noktalama ve oyun argosu kuralları anadili konuşuru gibi uygulanır.
+
+## Güncellemeler
+
+Güncellemeler birkaç yüz KB: uygulama yalnızca değişen dosyalarını değiştirip yeniden başlar. Kurulum dosyası yaklaşık 120 MB; ses tanıma için GPU paketi (yaklaşık 900 MB) yalnızca NVIDIA kartlı bilgisayarlarda, bir kez iner.
+

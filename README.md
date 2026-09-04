@@ -38,6 +38,18 @@ The free edition keeps everything above unlimited. Pro (one-time purchase on [Gu
 - **Fix.** Write in the other language yourself; the Fix button corrects grammar, spelling and unnatural phrasing without translating, in the register you chose.
 - Summaries after a listening session, read-aloud, a glossary so names and terms stay fixed, clipboard watch, and screen subtitles.
 
+## Translation engines
+
+Ollama runs the default model on your own PC. If you prefer a cloud provider, bring your own key: Gemini, Groq, Cerebras, OpenRouter and Mistral have free tiers; OpenAI, DeepSeek, xAI Grok and Claude are paid. Every provider has a "Fetch model list" button that shows what your key can use, the model field accepts any name, and you can add any OpenAI-compatible endpoint (Together, Fireworks, an in-house vLLM, LM Studio) under a name of your own.
+
+## Languages
+
+Interface in eleven languages: English, Turkish, Spanish, German, French, Portuguese, Italian, Russian, Japanese, Korean, Chinese. The language you pick in the installer becomes the app's language and your language pair. Translation into 28 languages; the 16 most used ones (Turkish, English, Spanish, German, French, Portuguese, Italian, Russian, Japanese, Korean, Chinese, Arabic, Hindi, Dutch, Polish, Ukrainian) carry native-speaker rules for formality levels, regional varieties, punctuation and gaming slang.
+
+## Updates
+
+Updates are a few hundred kilobytes: the app replaces only its changed files and restarts. The installer is about 120 MB; the GPU pack for speech recognition (about 900 MB) is downloaded once, only on PCs with an NVIDIA card.
+
 ## Privacy
 
 Translation and speech recognition run locally through Ollama and Whisper. The only network use: downloading models, optional cloud providers you enable yourself (Gemini, Groq, Cerebras, Claude), and read-aloud voices. To translate a video you are watching, just press Ctrl+Alt+L while it plays.
