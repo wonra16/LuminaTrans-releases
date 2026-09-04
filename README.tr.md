@@ -20,9 +20,12 @@ Dinle ve Ekran altyazısı açıkken ekranın altında saydam bir **altyazı çu
 
 Bir dinleme oturumu bittiğinde karttaki **Özetle** düğmesi konuşulanları maddeler, senden istenenleri ve kararları çıkarır. **Oku** düğmesi çevirileri sesli okur.
 
-## Dosya ve video çevirisi
+## Dosya ve belge çevirisi (Pro)
 
-- Gelen → **Dosya çevir**: ses, video (mp3, mp4, m4a, ogg, webm, mkv…) ya da metin/altyazı (txt, md, srt, vtt). Çıktılar `Belgeler\LuminaTrans` içine yazılır: `ad.en.srt` (çevrilmiş altyazı), `ad.orig.srt`, `ad.en.txt` (orijinal + çeviri yan yana). Dosyayı panele sürükleyip bırakmak da olur.
+- **Belgeler, düzen korunarak:** PDF, Word (docx), PowerPoint (pptx) ve Excel (xlsx) dosyasını panele bırak ya da Gelen → **Dosya çevir** ile seç. PDF'de metin kendi kutusunun içine yeniden yazılır, görseller ve sayfalar aynen kalır; Word'de yazı tipi, tablo, üst ve alt bilgi korunur; PowerPoint'te her slayt ve not; Excel'de sadece metin hücreleri çevrilir, sayı ve formüller dokunulmaz. Çıktı `Belgeler\LuminaTrans` içine `ad.en.pdf` gibi yazılır, çevrilen satırlar kartta da görünür.
+- **Ses ve video:** mp3, mp4, m4a, ogg, webm, mkv… ya da metin/altyazı (txt, md, srt, vtt). Çıktılar: `ad.en.srt` (çeviri), `ad.en+orig.srt` (üstte çeviri, altta orijinal), `ad.orig.srt`, `ad.en.txt` (yan yana).
+- **Düzelt:** Yabancı dilde kendin yazdığın metni çevirmeden, anadili gibi düzeltir (dil bilgisi, yazım, doğal ifade); Yaz sekmesinde Çevir'in yanındaki düğme.
+- Panele ekran görüntüsü yapıştır (Ctrl+V): ekran bölgesi gibi okunup çevrilir (ücretsiz).
 - **Gelen Kutusu** klasörü: `Belgeler\LuminaTrans\Gelen Kutusu` içine attığın her ses, video veya altyazı dosyası otomatik çevrilir.
 - İzlediğin bir videoyu çevirmek için indirmek gerekmez: video oynarken **Ctrl+Alt+L** (Dinle) canlı altyazı verir.
 
