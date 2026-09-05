@@ -48,7 +48,7 @@ Interface in eleven languages: English, Turkish, Spanish, German, French, Portug
 
 ## Updates
 
-Updates are a few hundred kilobytes: the app replaces only its changed files and restarts. The installer is about 120 MB; the GPU pack for speech recognition (about 900 MB) is downloaded once, only on PCs with an NVIDIA card.
+Updates are a few hundred kilobytes: the app replaces only its changed files and restarts. The installer is about 170 MB; the GPU pack for speech recognition (about 900 MB) is downloaded once, only on PCs with an NVIDIA card.
 
 ## Privacy
 
