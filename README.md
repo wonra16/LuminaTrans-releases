@@ -64,3 +64,7 @@ python app.py
 ```
 
 `build_exe.bat` produces `dist\LuminaTrans`; `build_installer.bat` (Inno Setup 6) produces `Output\LuminaTrans-Setup-x.y.z.exe`.
+
+## Dictionary layer and learning (0.7.0)
+
+Local models know grammar and miss words. LuminaTrans looks a sentence's content words up in a local dictionary derived from Wiktionary and hands the meanings to the model as hints; speed is unchanged. The Turkish dictionary ships with the app; 24 other source languages download once (a few MB) when selected. The "Teach" button stores your corrected rendering: the same sentence comes back verbatim, similar ones follow your terms. Dictionary data: Wiktionary via kaikki.org, CC BY-SA 4.0.
